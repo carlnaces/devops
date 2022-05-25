@@ -4,6 +4,7 @@
 5/24/2022 - Create and activate a Python virtual environment
                     python3 -m "path for venv" - creates venv directory with scripts
 
+
 Execution Policy
 Sidetrack - Windows default Execution policy is Restricted: can't run scripts
             PS> Get-ExecutionPolicy -List
@@ -19,13 +20,12 @@ ST - Installing GIT on Windows
                                 git clone "repository_url"
                                 cd "git_project"
             remote repos:       git remote -v
+            check:              git status
+                                git push
 
-
-
-
-
-
-
+Activating and Using python venv:
+                                venv\Scripts\Activate.ps1
+                                deactivate
 
 
 
