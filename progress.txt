@@ -1,0 +1,42 @@
+5/24/2022 - install python 3.8, updating path variable, and updating modules thru pip/pip3
+            python3 -m pip install --upgrade pip
+
+5/24/2022 - Create and activate a Python virtual environment
+                    python3 -m "path for venv" - creates venv directory with scripts
+
+Execution Policy
+Sidetrack - Windows default Execution policy is Restricted: can't run scripts
+            PS> Get-ExecutionPolicy -List
+            * Set to Undefined first before changing policy *
+            Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope LocalMachine
+            Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope LocalMachine
+
+ST - Installing GIT on Windows
+            https://phoenixnap.com/kb/how-to-install-git-windows
+            mkdir "path"
+            credentials input: git config --global user.name carlnaces
+                                git config --global user.email carljessences@gmail.com
+                                git clone "repository_url"
+                                cd "git_project"
+            remote repos:       git remote -v
+
+
+
+
+
+
+
+
+
+
+
+            Explain why you want to isolate external dependencies
+            Visualize what Python does when you create a virtual environment
+            Customize your virtual environments using optional arguments to venv
+            Deactivate and remove virtual environments
+            Choose additional tools for managing your Python versions and virtual environments
+
+
+
+
+setup CI/CD with ADF GIT repositroy
