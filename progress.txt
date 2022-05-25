@@ -27,7 +27,10 @@ Activating and Using python venv:
                                 venv\Scripts\Activate.ps1
                                 deactivate
 
-
+ST - Updating a file in Github:
+After edits add the changes:    git add "edited file"
+stage                           git commit
+enter commit notes              git push
 
 
             Explain why you want to isolate external dependencies
